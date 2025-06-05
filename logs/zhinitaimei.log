@@ -1,0 +1,2392 @@
+2025-06-02 15:45:04,760 - zhinitaimei - INFO - [zhinitaimei] Start crawling from article ID 100
+2025-06-02 15:45:08,485 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/103/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:45:09,157 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/104/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:45:11,066 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/106/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:45:12,299 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/107/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:45:13,449 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/108/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:45:14,152 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/109/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:45:14,825 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/110/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:45:16,079 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/111/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:45:17,343 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/112/: 'NoneType' object has no attribute 'text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 40, in get_article
+    title = soup.find("h1", class_="entry-title").text.strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+2025-06-02 15:48:36,672 - zhinitaimei - INFO - [zhinitaimei] Start crawling from article ID 100
+2025-06-02 15:48:39,823 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/103/: 'str' object has no attribute 'get_text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 83, in get_article
+    "content": content_text.get_text(strip=True),
+               ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get_text'
+2025-06-02 15:48:40,519 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/104/: 'str' object has no attribute 'get_text'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 83, in get_article
+    "content": content_text.get_text(strip=True),
+               ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get_text'
+2025-06-02 15:53:56,076 - zhinitaimei - INFO - [zhinitaimei] Start crawling from article ID 100
+2025-06-02 15:58:39,459 - zhinitaimei - INFO - [zhinitaimei] Start crawling from article ID 100
+2025-06-02 15:59:52,771 - zhinitaimei - INFO - [zhinitaimei] Enter retry stage with 50 failed IDs
+2025-06-02 16:02:01,261 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/125/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /125/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /125/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /125/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:02,649 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/127/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /127/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /127/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /127/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:02,939 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/129/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /129/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /129/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /129/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:03,251 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/130/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /130/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /130/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /130/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:05,248 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/133/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /133/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /133/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /133/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:05,649 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/134/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /134/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /134/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /134/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:07,067 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/136/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /136/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /136/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /136/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:09,739 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/141/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /141/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /141/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /141/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:15,374 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/150/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /150/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /150/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /150/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:15,717 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/152/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /152/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /152/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /152/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:17,246 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/158/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /158/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /158/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /158/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:17,419 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/159/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /159/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /159/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /159/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:17,611 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/163/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /163/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /163/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /163/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:17,799 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/165/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /165/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /165/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /165/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:18,007 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/167/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /167/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /167/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /167/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:19,534 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/171/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /171/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /171/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /171/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:19,714 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/173/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /173/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /173/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /173/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:02:19,917 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/175/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /175/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /175/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /175/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:41,138 - zhinitaimei - INFO - [zhinitaimei] Start crawling from article ID 100
+2025-06-02 16:09:43,452 - zhinitaimei - WARNING - [zhinitaimei] Article ID 100 fetch failed or incomplete.
+2025-06-02 16:09:44,144 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/101/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /101/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /101/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /101/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:44,147 - zhinitaimei - WARNING - [zhinitaimei] Article ID 101 fetch failed or incomplete.
+2025-06-02 16:09:45,688 - zhinitaimei - WARNING - [zhinitaimei] Article ID 102 fetch failed or incomplete.
+2025-06-02 16:09:46,520 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/103/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /103/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /103/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /103/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:46,522 - zhinitaimei - WARNING - [zhinitaimei] Article ID 103 fetch failed or incomplete.
+2025-06-02 16:09:47,027 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/104/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /104/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /104/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /104/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:47,028 - zhinitaimei - WARNING - [zhinitaimei] Article ID 104 fetch failed or incomplete.
+2025-06-02 16:09:47,423 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/105/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /105/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /105/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /105/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:47,424 - zhinitaimei - WARNING - [zhinitaimei] Article ID 105 fetch failed or incomplete.
+2025-06-02 16:09:47,904 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/106/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /106/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /106/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /106/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:47,906 - zhinitaimei - WARNING - [zhinitaimei] Article ID 106 fetch failed or incomplete.
+2025-06-02 16:09:50,635 - zhinitaimei - WARNING - [zhinitaimei] Article ID 107 fetch failed or incomplete.
+2025-06-02 16:09:51,226 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/108/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /108/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /108/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /108/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:51,227 - zhinitaimei - WARNING - [zhinitaimei] Article ID 108 fetch failed or incomplete.
+2025-06-02 16:09:54,345 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/110/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /110/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /110/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /110/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:54,347 - zhinitaimei - WARNING - [zhinitaimei] Article ID 110 fetch failed or incomplete.
+2025-06-02 16:09:56,797 - zhinitaimei - WARNING - [zhinitaimei] Article ID 111 fetch failed or incomplete.
+2025-06-02 16:09:59,521 - zhinitaimei - WARNING - [zhinitaimei] Article ID 112 fetch failed or incomplete.
+2025-06-02 16:09:59,931 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/113/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /113/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /113/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /113/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:09:59,932 - zhinitaimei - WARNING - [zhinitaimei] Article ID 113 fetch failed or incomplete.
+2025-06-02 16:10:00,368 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/114/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /114/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /114/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /114/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:00,370 - zhinitaimei - WARNING - [zhinitaimei] Article ID 114 fetch failed or incomplete.
+2025-06-02 16:10:00,888 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/115/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /115/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /115/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /115/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:00,889 - zhinitaimei - WARNING - [zhinitaimei] Article ID 115 fetch failed or incomplete.
+2025-06-02 16:10:01,784 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/116/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /116/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /116/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /116/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:01,785 - zhinitaimei - WARNING - [zhinitaimei] Article ID 116 fetch failed or incomplete.
+2025-06-02 16:10:02,817 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/117/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /117/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /117/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /117/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:02,818 - zhinitaimei - WARNING - [zhinitaimei] Article ID 117 fetch failed or incomplete.
+2025-06-02 16:10:05,041 - zhinitaimei - WARNING - [zhinitaimei] Article ID 118 fetch failed or incomplete.
+2025-06-02 16:10:05,310 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/119/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /119/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /119/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /119/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:05,311 - zhinitaimei - WARNING - [zhinitaimei] Article ID 119 fetch failed or incomplete.
+2025-06-02 16:10:06,089 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/120/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /120/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /120/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /120/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:06,090 - zhinitaimei - WARNING - [zhinitaimei] Article ID 120 fetch failed or incomplete.
+2025-06-02 16:10:06,557 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/121/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /121/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /121/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /121/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:06,559 - zhinitaimei - WARNING - [zhinitaimei] Article ID 121 fetch failed or incomplete.
+2025-06-02 16:10:08,093 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/123/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /123/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /123/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /123/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:08,097 - zhinitaimei - WARNING - [zhinitaimei] Article ID 123 fetch failed or incomplete.
+2025-06-02 16:10:08,557 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/124/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /124/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /124/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /124/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:08,558 - zhinitaimei - WARNING - [zhinitaimei] Article ID 124 fetch failed or incomplete.
+2025-06-02 16:10:09,058 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/125/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /125/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /125/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /125/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:09,060 - zhinitaimei - WARNING - [zhinitaimei] Article ID 125 fetch failed or incomplete.
+2025-06-02 16:10:10,050 - zhinitaimei - WARNING - [zhinitaimei] Article ID 126 fetch failed or incomplete.
+2025-06-02 16:10:10,399 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/127/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /127/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /127/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /127/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:10,401 - zhinitaimei - WARNING - [zhinitaimei] Article ID 127 fetch failed or incomplete.
+2025-06-02 16:10:13,095 - zhinitaimei - WARNING - [zhinitaimei] Article ID 129 fetch failed or incomplete.
+2025-06-02 16:10:14,093 - zhinitaimei - WARNING - [zhinitaimei] Article ID 130 fetch failed or incomplete.
+2025-06-02 16:10:14,340 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/131/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /131/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /131/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /131/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:14,342 - zhinitaimei - WARNING - [zhinitaimei] Article ID 131 fetch failed or incomplete.
+2025-06-02 16:10:14,656 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/132/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /132/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /132/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /132/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:14,658 - zhinitaimei - WARNING - [zhinitaimei] Article ID 132 fetch failed or incomplete.
+2025-06-02 16:10:14,870 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/133/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /133/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /133/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /133/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:14,872 - zhinitaimei - WARNING - [zhinitaimei] Article ID 133 fetch failed or incomplete.
+2025-06-02 16:10:16,206 - zhinitaimei - WARNING - [zhinitaimei] Article ID 134 fetch failed or incomplete.
+2025-06-02 16:10:16,387 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/135/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /135/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /135/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /135/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:16,389 - zhinitaimei - WARNING - [zhinitaimei] Article ID 135 fetch failed or incomplete.
+2025-06-02 16:10:16,523 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/136/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /136/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /136/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /136/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:16,526 - zhinitaimei - WARNING - [zhinitaimei] Article ID 136 fetch failed or incomplete.
+2025-06-02 16:10:16,692 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/137/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /137/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /137/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /137/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:16,694 - zhinitaimei - WARNING - [zhinitaimei] Article ID 137 fetch failed or incomplete.
+2025-06-02 16:10:16,840 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/138/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /138/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /138/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /138/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:16,843 - zhinitaimei - WARNING - [zhinitaimei] Article ID 138 fetch failed or incomplete.
+2025-06-02 16:10:18,474 - zhinitaimei - WARNING - [zhinitaimei] Article ID 140 fetch failed or incomplete.
+2025-06-02 16:10:19,696 - zhinitaimei - WARNING - [zhinitaimei] Article ID 141 fetch failed or incomplete.
+2025-06-02 16:10:20,506 - zhinitaimei - WARNING - [zhinitaimei] Article ID 142 fetch failed or incomplete.
+2025-06-02 16:10:21,382 - zhinitaimei - WARNING - [zhinitaimei] Article ID 143 fetch failed or incomplete.
+2025-06-02 16:10:22,631 - zhinitaimei - WARNING - [zhinitaimei] Article ID 144 fetch failed or incomplete.
+2025-06-02 16:10:25,446 - zhinitaimei - WARNING - [zhinitaimei] Article ID 147 fetch failed or incomplete.
+2025-06-02 16:10:27,383 - zhinitaimei - WARNING - [zhinitaimei] Article ID 149 fetch failed or incomplete.
+2025-06-02 16:10:28,425 - zhinitaimei - WARNING - [zhinitaimei] Article ID 150 fetch failed or incomplete.
+2025-06-02 16:10:29,315 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/152/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /152/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /152/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /152/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:29,318 - zhinitaimei - WARNING - [zhinitaimei] Article ID 152 fetch failed or incomplete.
+2025-06-02 16:10:29,481 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/153/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /153/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /153/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /153/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 16:10:29,484 - zhinitaimei - WARNING - [zhinitaimei] Article ID 153 fetch failed or incomplete.
+2025-06-02 16:10:31,233 - zhinitaimei - WARNING - [zhinitaimei] Article ID 155 fetch failed or incomplete.
+2025-06-02 16:10:33,694 - zhinitaimei - WARNING - [zhinitaimei] Article ID 158 fetch failed or incomplete.
+2025-06-02 16:10:34,452 - zhinitaimei - WARNING - [zhinitaimei] Article ID 159 fetch failed or incomplete.
+2025-06-02 16:10:37,630 - zhinitaimei - WARNING - [zhinitaimei] Article ID 163 fetch failed or incomplete.
+2025-06-02 16:10:37,630 - zhinitaimei - INFO - [zhinitaimei] Enter retry stage with 50 failed IDs
+2025-06-02 16:10:38,473 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 100 fetch failed.
+2025-06-02 16:10:39,247 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 101 fetch failed.
+2025-06-02 16:10:40,046 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 102 fetch failed.
+2025-06-02 16:10:42,324 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 105 fetch failed.
+2025-06-02 16:10:43,589 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 106 fetch failed.
+2025-06-02 16:10:44,723 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 107 fetch failed.
+2025-06-02 16:10:45,915 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 108 fetch failed.
+2025-06-02 16:10:47,747 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 111 fetch failed.
+2025-06-02 16:10:48,877 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 112 fetch failed.
+2025-06-02 16:10:50,002 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 113 fetch failed.
+2025-06-02 16:10:50,794 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 114 fetch failed.
+2025-06-02 16:10:51,889 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 115 fetch failed.
+2025-06-02 16:10:53,164 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 116 fetch failed.
+2025-06-02 16:10:54,254 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 117 fetch failed.
+2025-06-02 16:10:55,438 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 118 fetch failed.
+2025-06-02 16:10:56,541 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 119 fetch failed.
+2025-06-02 16:10:57,302 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 120 fetch failed.
+2025-06-02 16:10:59,229 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 123 fetch failed.
+2025-06-02 16:11:00,346 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 124 fetch failed.
+2025-06-02 16:11:01,137 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 125 fetch failed.
+2025-06-02 16:11:01,947 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 126 fetch failed.
+2025-06-02 16:11:02,872 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 127 fetch failed.
+2025-06-02 16:11:03,967 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 129 fetch failed.
+2025-06-02 16:11:05,002 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 130 fetch failed.
+2025-06-02 16:11:06,184 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 131 fetch failed.
+2025-06-02 16:11:07,898 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 133 fetch failed.
+2025-06-02 16:11:09,036 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 134 fetch failed.
+2025-06-02 16:11:10,285 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 135 fetch failed.
+2025-06-02 16:11:11,398 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 136 fetch failed.
+2025-06-02 16:11:13,239 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 138 fetch failed.
+2025-06-02 16:11:14,066 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 140 fetch failed.
+2025-06-02 16:11:15,191 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 141 fetch failed.
+2025-06-02 16:11:16,013 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 142 fetch failed.
+2025-06-02 16:11:16,909 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 143 fetch failed.
+2025-06-02 16:11:17,981 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 144 fetch failed.
+2025-06-02 16:11:19,070 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 147 fetch failed.
+2025-06-02 16:11:20,237 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 149 fetch failed.
+2025-06-02 16:11:21,111 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 150 fetch failed.
+2025-06-02 16:11:22,267 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 152 fetch failed.
+2025-06-02 16:11:24,180 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 155 fetch failed.
+2025-06-02 16:11:25,335 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 158 fetch failed.
+2025-06-02 16:11:26,130 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 159 fetch failed.
+2025-06-02 16:11:27,286 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 163 fetch failed.
+2025-06-02 16:11:28,101 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 100 fetch failed.
+2025-06-02 16:11:28,936 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 101 fetch failed.
+2025-06-02 16:11:29,774 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 102 fetch failed.
+2025-06-02 16:11:30,621 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 105 fetch failed.
+2025-06-02 16:11:31,827 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 106 fetch failed.
+2025-06-02 16:11:32,931 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 107 fetch failed.
+2025-06-02 16:11:34,028 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 108 fetch failed.
+2025-06-02 16:11:35,117 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 111 fetch failed.
+2025-06-02 16:11:36,266 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 112 fetch failed.
+2025-06-02 16:11:37,448 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 113 fetch failed.
+2025-06-02 16:11:38,207 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 114 fetch failed.
+2025-06-02 16:11:39,347 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 115 fetch failed.
+2025-06-02 16:11:40,481 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 116 fetch failed.
+2025-06-02 16:11:41,596 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 117 fetch failed.
+2025-06-02 16:11:42,756 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 118 fetch failed.
+2025-06-02 16:11:43,874 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 119 fetch failed.
+2025-06-02 16:11:44,752 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 120 fetch failed.
+2025-06-02 16:11:45,985 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 123 fetch failed.
+2025-06-02 16:11:47,113 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 124 fetch failed.
+2025-06-02 16:11:47,914 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 125 fetch failed.
+2025-06-02 16:11:48,699 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 126 fetch failed.
+2025-06-02 16:11:49,465 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 127 fetch failed.
+2025-06-02 16:11:50,560 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 129 fetch failed.
+2025-06-02 16:11:51,539 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 130 fetch failed.
+2025-06-02 16:11:52,647 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 131 fetch failed.
+2025-06-02 16:11:53,625 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 133 fetch failed.
+2025-06-02 16:11:54,744 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 134 fetch failed.
+2025-06-02 16:11:55,867 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 135 fetch failed.
+2025-06-02 16:11:57,060 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 136 fetch failed.
+2025-06-02 16:11:58,169 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 138 fetch failed.
+2025-06-02 16:11:58,909 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 140 fetch failed.
+2025-06-02 16:12:00,011 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 141 fetch failed.
+2025-06-02 16:12:00,783 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 142 fetch failed.
+2025-06-02 16:12:01,619 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 143 fetch failed.
+2025-06-02 16:12:02,700 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 144 fetch failed.
+2025-06-02 16:12:03,908 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 147 fetch failed.
+2025-06-02 16:12:05,155 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 149 fetch failed.
+2025-06-02 16:12:06,016 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 150 fetch failed.
+2025-06-02 16:12:07,186 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 152 fetch failed.
+2025-06-02 16:12:08,416 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 155 fetch failed.
+2025-06-02 16:12:09,551 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 158 fetch failed.
+2025-06-02 16:12:10,358 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 159 fetch failed.
+2025-06-02 16:12:11,436 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 163 fetch failed.
+2025-06-02 16:12:12,241 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 100 fetch failed.
+2025-06-02 16:12:13,096 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 101 fetch failed.
+2025-06-02 16:12:13,918 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 102 fetch failed.
+2025-06-02 16:12:14,720 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 105 fetch failed.
+2025-06-02 16:12:15,860 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 106 fetch failed.
+2025-06-02 16:12:17,047 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 107 fetch failed.
+2025-06-02 16:12:18,129 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 108 fetch failed.
+2025-06-02 16:12:19,289 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 111 fetch failed.
+2025-06-02 16:12:20,368 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 112 fetch failed.
+2025-06-02 16:12:21,579 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 113 fetch failed.
+2025-06-02 16:12:22,400 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 114 fetch failed.
+2025-06-02 16:12:23,706 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 115 fetch failed.
+2025-06-02 16:12:24,905 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 116 fetch failed.
+2025-06-02 16:12:26,104 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 117 fetch failed.
+2025-06-02 16:12:27,245 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 118 fetch failed.
+2025-06-02 16:12:28,386 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 119 fetch failed.
+2025-06-02 16:12:29,146 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 120 fetch failed.
+2025-06-02 16:12:30,351 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 123 fetch failed.
+2025-06-02 16:12:31,493 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 124 fetch failed.
+2025-06-02 16:12:32,342 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 125 fetch failed.
+2025-06-02 16:12:33,148 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 126 fetch failed.
+2025-06-02 16:12:34,950 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 127 fetch failed.
+2025-06-02 16:12:36,138 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 129 fetch failed.
+2025-06-02 16:12:37,091 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 130 fetch failed.
+2025-06-02 16:12:38,208 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 131 fetch failed.
+2025-06-02 16:12:39,396 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 133 fetch failed.
+2025-06-02 16:12:40,502 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 134 fetch failed.
+2025-06-02 16:12:41,592 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 135 fetch failed.
+2025-06-02 16:12:42,749 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 136 fetch failed.
+2025-06-02 16:12:43,849 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 138 fetch failed.
+2025-06-02 16:12:44,604 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 140 fetch failed.
+2025-06-02 16:12:45,715 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 141 fetch failed.
+2025-06-02 16:12:46,590 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 142 fetch failed.
+2025-06-02 16:12:47,483 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 143 fetch failed.
+2025-06-02 16:12:48,713 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 144 fetch failed.
+2025-06-02 16:12:49,804 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 147 fetch failed.
+2025-06-02 16:12:50,968 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 149 fetch failed.
+2025-06-02 16:12:51,764 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 150 fetch failed.
+2025-06-02 16:12:52,892 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 152 fetch failed.
+2025-06-02 16:12:54,037 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 155 fetch failed.
+2025-06-02 16:12:55,179 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 158 fetch failed.
+2025-06-02 16:12:56,000 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 159 fetch failed.
+2025-06-02 16:12:57,206 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 163 fetch failed.
+2025-06-02 16:12:57,206 - zhinitaimei - ERROR - [zhinitaimei] Failed to update last_number in DB: MongoStorage.update_one() got an unexpected keyword argument 'upsert'
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 115, in crawl
+    self.mongo_storage.update_one(
+TypeError: MongoStorage.update_one() got an unexpected keyword argument 'upsert'
+2025-06-02 17:48:25,376 - zhinitaimei - INFO - [zhinitaimei] Start crawling from article ID 100
+2025-06-02 17:48:26,267 - zhinitaimei - WARNING - [zhinitaimei] Article ID 100 fetch failed or incomplete.
+2025-06-02 17:48:27,026 - zhinitaimei - WARNING - [zhinitaimei] Article ID 101 fetch failed or incomplete.
+2025-06-02 17:48:27,962 - zhinitaimei - WARNING - [zhinitaimei] Article ID 102 fetch failed or incomplete.
+2025-06-02 17:48:30,486 - zhinitaimei - WARNING - [zhinitaimei] Article ID 105 fetch failed or incomplete.
+2025-06-02 17:48:31,633 - zhinitaimei - WARNING - [zhinitaimei] Article ID 106 fetch failed or incomplete.
+2025-06-02 17:48:32,879 - zhinitaimei - WARNING - [zhinitaimei] Article ID 107 fetch failed or incomplete.
+2025-06-02 17:48:34,512 - zhinitaimei - WARNING - [zhinitaimei] Article ID 108 fetch failed or incomplete.
+2025-06-02 17:48:37,273 - zhinitaimei - WARNING - [zhinitaimei] Article ID 111 fetch failed or incomplete.
+2025-06-02 17:48:38,479 - zhinitaimei - WARNING - [zhinitaimei] Article ID 112 fetch failed or incomplete.
+2025-06-02 17:48:39,746 - zhinitaimei - WARNING - [zhinitaimei] Article ID 113 fetch failed or incomplete.
+2025-06-02 17:48:40,546 - zhinitaimei - WARNING - [zhinitaimei] Article ID 114 fetch failed or incomplete.
+2025-06-02 17:48:41,785 - zhinitaimei - WARNING - [zhinitaimei] Article ID 115 fetch failed or incomplete.
+2025-06-02 17:48:43,014 - zhinitaimei - WARNING - [zhinitaimei] Article ID 116 fetch failed or incomplete.
+2025-06-02 17:48:44,173 - zhinitaimei - WARNING - [zhinitaimei] Article ID 117 fetch failed or incomplete.
+2025-06-02 17:48:45,365 - zhinitaimei - WARNING - [zhinitaimei] Article ID 118 fetch failed or incomplete.
+2025-06-02 17:48:47,032 - zhinitaimei - WARNING - [zhinitaimei] Article ID 119 fetch failed or incomplete.
+2025-06-02 17:48:47,858 - zhinitaimei - WARNING - [zhinitaimei] Article ID 120 fetch failed or incomplete.
+2025-06-02 17:48:50,724 - zhinitaimei - WARNING - [zhinitaimei] Article ID 123 fetch failed or incomplete.
+2025-06-02 17:48:51,914 - zhinitaimei - WARNING - [zhinitaimei] Article ID 124 fetch failed or incomplete.
+2025-06-02 17:48:54,038 - zhinitaimei - WARNING - [zhinitaimei] Article ID 125 fetch failed or incomplete.
+2025-06-02 17:48:54,842 - zhinitaimei - WARNING - [zhinitaimei] Article ID 126 fetch failed or incomplete.
+2025-06-02 17:48:55,614 - zhinitaimei - WARNING - [zhinitaimei] Article ID 127 fetch failed or incomplete.
+2025-06-02 17:48:57,538 - zhinitaimei - WARNING - [zhinitaimei] Article ID 129 fetch failed or incomplete.
+2025-06-02 17:48:58,584 - zhinitaimei - WARNING - [zhinitaimei] Article ID 130 fetch failed or incomplete.
+2025-06-02 17:48:59,780 - zhinitaimei - WARNING - [zhinitaimei] Article ID 131 fetch failed or incomplete.
+2025-06-02 17:49:02,601 - zhinitaimei - WARNING - [zhinitaimei] Article ID 133 fetch failed or incomplete.
+2025-06-02 17:49:03,811 - zhinitaimei - WARNING - [zhinitaimei] Article ID 134 fetch failed or incomplete.
+2025-06-02 17:49:04,044 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/135/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /135/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /135/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /135/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 17:49:04,048 - zhinitaimei - WARNING - [zhinitaimei] Article ID 135 fetch failed or incomplete.
+2025-06-02 17:49:05,320 - zhinitaimei - WARNING - [zhinitaimei] Article ID 136 fetch failed or incomplete.
+2025-06-02 17:49:07,448 - zhinitaimei - WARNING - [zhinitaimei] Article ID 138 fetch failed or incomplete.
+2025-06-02 17:49:08,995 - zhinitaimei - WARNING - [zhinitaimei] Article ID 140 fetch failed or incomplete.
+2025-06-02 17:49:10,121 - zhinitaimei - WARNING - [zhinitaimei] Article ID 141 fetch failed or incomplete.
+2025-06-02 17:49:11,164 - zhinitaimei - WARNING - [zhinitaimei] Article ID 142 fetch failed or incomplete.
+2025-06-02 17:49:11,962 - zhinitaimei - WARNING - [zhinitaimei] Article ID 143 fetch failed or incomplete.
+2025-06-02 17:49:13,298 - zhinitaimei - WARNING - [zhinitaimei] Article ID 144 fetch failed or incomplete.
+2025-06-02 17:49:15,910 - zhinitaimei - WARNING - [zhinitaimei] Article ID 147 fetch failed or incomplete.
+2025-06-02 17:49:16,166 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/148/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /148/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /148/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /148/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 17:49:16,169 - zhinitaimei - WARNING - [zhinitaimei] Article ID 148 fetch failed or incomplete.
+2025-06-02 17:49:16,357 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/149/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /149/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /149/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /149/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 17:49:16,362 - zhinitaimei - WARNING - [zhinitaimei] Article ID 149 fetch failed or incomplete.
+2025-06-02 17:49:17,193 - zhinitaimei - WARNING - [zhinitaimei] Article ID 150 fetch failed or incomplete.
+2025-06-02 17:49:19,232 - zhinitaimei - WARNING - [zhinitaimei] Article ID 152 fetch failed or incomplete.
+2025-06-02 17:49:20,156 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/154/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /154/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /154/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /154/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 17:49:20,162 - zhinitaimei - WARNING - [zhinitaimei] Article ID 154 fetch failed or incomplete.
+2025-06-02 17:49:20,403 - zhinitaimei - ERROR - Error fetching https://www.zhinitaimei.com/155/: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /155/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1002)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /155/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\date_spider\crawler\spider_zhinitaimei.py", line 33, in get_article
+    response = requests.get(url, headers=headers, timeout=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\date_spider\.venv\Lib\site-packages\requests\adapters.py", line 698, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.zhinitaimei.com', port=443): Max retries exceeded with url: /155/ (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+2025-06-02 17:49:20,493 - zhinitaimei - WARNING - [zhinitaimei] Article ID 155 fetch failed or incomplete.
+2025-06-02 17:49:23,704 - zhinitaimei - WARNING - [zhinitaimei] Article ID 158 fetch failed or incomplete.
+2025-06-02 17:49:24,528 - zhinitaimei - WARNING - [zhinitaimei] Article ID 159 fetch failed or incomplete.
+2025-06-02 17:49:27,931 - zhinitaimei - WARNING - [zhinitaimei] Article ID 163 fetch failed or incomplete.
+2025-06-02 17:49:30,060 - zhinitaimei - WARNING - [zhinitaimei] Article ID 165 fetch failed or incomplete.
+2025-06-02 17:49:32,063 - zhinitaimei - WARNING - [zhinitaimei] Article ID 167 fetch failed or incomplete.
+2025-06-02 17:49:33,997 - zhinitaimei - WARNING - [zhinitaimei] Article ID 169 fetch failed or incomplete.
+2025-06-02 17:49:35,892 - zhinitaimei - WARNING - [zhinitaimei] Article ID 171 fetch failed or incomplete.
+2025-06-02 17:49:37,969 - zhinitaimei - WARNING - [zhinitaimei] Article ID 173 fetch failed or incomplete.
+2025-06-02 17:49:37,970 - zhinitaimei - INFO - [zhinitaimei] Enter retry stage with 50 failed IDs
+2025-06-02 17:49:38,845 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 100 fetch failed.
+2025-06-02 17:49:39,656 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 101 fetch failed.
+2025-06-02 17:49:40,430 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 102 fetch failed.
+2025-06-02 17:49:41,696 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 105 fetch failed.
+2025-06-02 17:49:42,841 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 106 fetch failed.
+2025-06-02 17:49:44,036 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 107 fetch failed.
+2025-06-02 17:49:45,154 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 108 fetch failed.
+2025-06-02 17:49:46,355 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 111 fetch failed.
+2025-06-02 17:49:47,521 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 112 fetch failed.
+2025-06-02 17:49:48,774 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 113 fetch failed.
+2025-06-02 17:49:49,671 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 114 fetch failed.
+2025-06-02 17:49:50,797 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 115 fetch failed.
+2025-06-02 17:49:52,132 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 116 fetch failed.
+2025-06-02 17:49:53,318 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 117 fetch failed.
+2025-06-02 17:49:54,611 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 118 fetch failed.
+2025-06-02 17:49:55,815 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 119 fetch failed.
+2025-06-02 17:49:56,583 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 120 fetch failed.
+2025-06-02 17:49:58,407 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 123 fetch failed.
+2025-06-02 17:49:59,625 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 124 fetch failed.
+2025-06-02 17:50:00,441 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 125 fetch failed.
+2025-06-02 17:50:01,252 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 126 fetch failed.
+2025-06-02 17:50:02,043 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 127 fetch failed.
+2025-06-02 17:50:03,155 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 129 fetch failed.
+2025-06-02 17:50:04,113 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 130 fetch failed.
+2025-06-02 17:50:05,263 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 131 fetch failed.
+2025-06-02 17:50:06,285 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 133 fetch failed.
+2025-06-02 17:50:07,441 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 134 fetch failed.
+2025-06-02 17:50:08,668 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 135 fetch failed.
+2025-06-02 17:50:09,801 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 136 fetch failed.
+2025-06-02 17:50:10,951 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 138 fetch failed.
+2025-06-02 17:50:11,817 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 140 fetch failed.
+2025-06-02 17:50:12,983 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 141 fetch failed.
+2025-06-02 17:50:13,798 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 142 fetch failed.
+2025-06-02 17:50:14,586 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 143 fetch failed.
+2025-06-02 17:50:15,825 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 144 fetch failed.
+2025-06-02 17:50:17,102 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 147 fetch failed.
+2025-06-02 17:50:19,001 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 149 fetch failed.
+2025-06-02 17:50:19,874 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 150 fetch failed.
+2025-06-02 17:50:20,982 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 152 fetch failed.
+2025-06-02 17:50:22,963 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 155 fetch failed.
+2025-06-02 17:50:24,347 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 158 fetch failed.
+2025-06-02 17:50:25,085 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 159 fetch failed.
+2025-06-02 17:50:26,198 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 163 fetch failed.
+2025-06-02 17:50:27,404 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 165 fetch failed.
+2025-06-02 17:50:28,616 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 167 fetch failed.
+2025-06-02 17:50:29,832 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 169 fetch failed.
+2025-06-02 17:50:30,968 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 171 fetch failed.
+2025-06-02 17:50:32,133 - zhinitaimei - WARNING - [zhinitaimei] Retry 1: Article ID 173 fetch failed.
+2025-06-02 17:50:32,915 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 100 fetch failed.
+2025-06-02 17:50:33,718 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 101 fetch failed.
+2025-06-02 17:50:34,572 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 102 fetch failed.
+2025-06-02 17:50:35,392 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 105 fetch failed.
+2025-06-02 17:50:36,711 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 106 fetch failed.
+2025-06-02 17:50:37,878 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 107 fetch failed.
+2025-06-02 17:50:39,090 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 108 fetch failed.
+2025-06-02 17:50:40,240 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 111 fetch failed.
+2025-06-02 17:50:41,544 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 112 fetch failed.
+2025-06-02 17:50:42,644 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 113 fetch failed.
+2025-06-02 17:50:43,510 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 114 fetch failed.
+2025-06-02 17:50:44,630 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 115 fetch failed.
+2025-06-02 17:50:45,736 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 116 fetch failed.
+2025-06-02 17:50:46,893 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 117 fetch failed.
+2025-06-02 17:50:47,990 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 118 fetch failed.
+2025-06-02 17:50:49,092 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 119 fetch failed.
+2025-06-02 17:50:49,901 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 120 fetch failed.
+2025-06-02 17:50:51,004 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 123 fetch failed.
+2025-06-02 17:50:52,099 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 124 fetch failed.
+2025-06-02 17:50:52,895 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 125 fetch failed.
+2025-06-02 17:50:53,700 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 126 fetch failed.
+2025-06-02 17:50:54,557 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 127 fetch failed.
+2025-06-02 17:50:55,800 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 129 fetch failed.
+2025-06-02 17:50:56,787 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 130 fetch failed.
+2025-06-02 17:50:57,968 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 131 fetch failed.
+2025-06-02 17:50:59,054 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 133 fetch failed.
+2025-06-02 17:51:00,194 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 134 fetch failed.
+2025-06-02 17:51:01,356 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 135 fetch failed.
+2025-06-02 17:51:02,486 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 136 fetch failed.
+2025-06-02 17:51:03,618 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 138 fetch failed.
+2025-06-02 17:51:04,409 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 140 fetch failed.
+2025-06-02 17:51:05,672 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 141 fetch failed.
+2025-06-02 17:51:06,501 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 142 fetch failed.
+2025-06-02 17:51:07,318 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 143 fetch failed.
+2025-06-02 17:51:08,390 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 144 fetch failed.
+2025-06-02 17:51:09,586 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 147 fetch failed.
+2025-06-02 17:51:10,696 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 149 fetch failed.
+2025-06-02 17:51:11,533 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 150 fetch failed.
+2025-06-02 17:51:12,643 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 152 fetch failed.
+2025-06-02 17:51:13,774 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 155 fetch failed.
+2025-06-02 17:51:14,879 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 158 fetch failed.
+2025-06-02 17:51:15,820 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 159 fetch failed.
+2025-06-02 17:51:17,096 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 163 fetch failed.
+2025-06-02 17:51:18,310 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 165 fetch failed.
+2025-06-02 17:51:19,468 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 167 fetch failed.
+2025-06-02 17:51:20,562 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 169 fetch failed.
+2025-06-02 17:51:21,828 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 171 fetch failed.
+2025-06-02 17:51:22,956 - zhinitaimei - WARNING - [zhinitaimei] Retry 2: Article ID 173 fetch failed.
+2025-06-02 17:51:23,927 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 100 fetch failed.
+2025-06-02 17:51:24,756 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 101 fetch failed.
+2025-06-02 17:51:25,560 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 102 fetch failed.
+2025-06-02 17:51:26,281 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 105 fetch failed.
+2025-06-02 17:51:27,377 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 106 fetch failed.
+2025-06-02 17:51:28,496 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 107 fetch failed.
+2025-06-02 17:51:29,594 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 108 fetch failed.
+2025-06-02 17:51:30,649 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 111 fetch failed.
+2025-06-02 17:51:31,744 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 112 fetch failed.
+2025-06-02 17:51:32,857 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 113 fetch failed.
+2025-06-02 17:51:33,721 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 114 fetch failed.
+2025-06-02 17:51:34,857 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 115 fetch failed.
+2025-06-02 17:51:36,109 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 116 fetch failed.
+2025-06-02 17:51:37,255 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 117 fetch failed.
+2025-06-02 17:51:38,458 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 118 fetch failed.
+2025-06-02 17:51:39,711 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 119 fetch failed.
+2025-06-02 17:51:40,504 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 120 fetch failed.
+2025-06-02 17:51:41,682 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 123 fetch failed.
+2025-06-02 17:51:42,859 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 124 fetch failed.
+2025-06-02 17:51:43,701 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 125 fetch failed.
+2025-06-02 17:51:44,481 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 126 fetch failed.
+2025-06-02 17:51:45,265 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 127 fetch failed.
+2025-06-02 17:51:46,427 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 129 fetch failed.
+2025-06-02 17:51:47,400 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 130 fetch failed.
+2025-06-02 17:51:48,534 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 131 fetch failed.
+2025-06-02 17:51:49,541 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 133 fetch failed.
+2025-06-02 17:51:50,644 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 134 fetch failed.
+2025-06-02 17:51:51,780 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 135 fetch failed.
+2025-06-02 17:51:52,972 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 136 fetch failed.
+2025-06-02 17:51:54,076 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 138 fetch failed.
+2025-06-02 17:51:54,853 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 140 fetch failed.
+2025-06-02 17:51:55,972 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 141 fetch failed.
+2025-06-02 17:51:56,807 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 142 fetch failed.
+2025-06-02 17:51:57,668 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 143 fetch failed.
+2025-06-02 17:51:58,858 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 144 fetch failed.
+2025-06-02 17:52:00,017 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 147 fetch failed.
+2025-06-02 17:52:01,219 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 149 fetch failed.
+2025-06-02 17:52:02,091 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 150 fetch failed.
+2025-06-02 17:52:03,344 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 152 fetch failed.
+2025-06-02 17:52:04,522 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 155 fetch failed.
+2025-06-02 17:52:05,722 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 158 fetch failed.
+2025-06-02 17:52:06,531 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 159 fetch failed.
+2025-06-02 17:52:07,721 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 163 fetch failed.
+2025-06-02 17:52:08,837 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 165 fetch failed.
+2025-06-02 17:52:09,949 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 167 fetch failed.
+2025-06-02 17:52:11,032 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 169 fetch failed.
+2025-06-02 17:52:12,235 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 171 fetch failed.
+2025-06-02 17:52:13,330 - zhinitaimei - WARNING - [zhinitaimei] Retry 3: Article ID 173 fetch failed.
+2025-06-02 17:52:13,332 - zhinitaimei - INFO - [zhinitaimei] Updated last_number to 173

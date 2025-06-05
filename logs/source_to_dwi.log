@@ -1,0 +1,84 @@
+2025-06-02 21:33:39,374 - spider_to_dwi - INFO - [SourceToDwi] batchId=20250602174824, DB=source_spider_data
+2025-06-02 21:33:39,461 - spider_to_dwi - INFO - [INFO] 处理集合: spider_data_theblockbeats，符合 batchId=20250602174824 的数据条数: 0
+2025-06-02 21:33:39,461 - spider_to_dwi - WARNING - [WARN] 集合 spider_data_theblockbeats 中没有匹配的数据，跳过
+2025-06-02 21:33:39,464 - spider_to_dwi - INFO - [INFO] 处理集合: spider_data_cryptotradingcafe，符合 batchId=20250602174824 的数据条数: 0
+2025-06-02 21:33:39,465 - spider_to_dwi - WARNING - [WARN] 集合 spider_data_cryptotradingcafe 中没有匹配的数据，跳过
+2025-06-02 21:33:39,467 - spider_to_dwi - INFO - [INFO] 处理集合: spider_data_jmtt，符合 batchId=20250602174824 的数据条数: 0
+2025-06-02 21:33:39,468 - spider_to_dwi - WARNING - [WARN] 集合 spider_data_jmtt 中没有匹配的数据，跳过
+2025-06-02 21:33:39,470 - spider_to_dwi - INFO - [INFO] 处理集合: spider_data_zhinitaimei，符合 batchId=20250602174824 的数据条数: 0
+2025-06-02 21:33:39,471 - spider_to_dwi - WARNING - [WARN] 集合 spider_data_zhinitaimei 中没有匹配的数据，跳过
+2025-06-02 21:33:39,472 - spider_to_dwi - INFO - [SUCCESS] 所有集合中 batchId=20250602174824 的数据已合并完毕。
+2025-06-02 21:34:07,290 - spider_to_dwi - INFO - [SourceToDwi] batchId=20250602174824, DB=source_spider_data
+2025-06-02 21:34:07,348 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_theblockbeats，符合 batchId=20250602174824 的数据条数: 267
+2025-06-02 21:34:07,374 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 8 分钟
+2025-06-02 21:34:07,374 - spider_to_dwi - WARNING - [WARN] 无效的创建时间: 阅读本文需 8 分钟，使用当前时间戳代替。
+2025-06-02 21:34:07,375 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 8 分钟
+2025-06-02 21:34:07,376 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 21 分钟
+2025-06-02 21:34:07,376 - spider_to_dwi - WARNING - [WARN] 无效的创建时间: 阅读本文需 21 分钟，使用当前时间戳代替。
+2025-06-02 21:34:07,377 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 21 分钟
+2025-06-02 21:34:07,377 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 19 分钟
+2025-06-02 21:34:07,378 - spider_to_dwi - WARNING - [WARN] 无效的创建时间: 阅读本文需 19 分钟，使用当前时间戳代替。
+2025-06-02 21:34:07,379 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 19 分钟
+2025-06-02 21:34:07,379 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 8 分钟
+2025-06-02 21:34:07,380 - spider_to_dwi - WARNING - [WARN] 无效的创建时间: 阅读本文需 8 分钟，使用当前时间戳代替。
+2025-06-02 21:34:07,380 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 8 分钟
+2025-06-02 21:34:07,381 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 50 分钟
+2025-06-02 21:34:07,381 - spider_to_dwi - WARNING - [WARN] 无效的创建时间: 阅读本文需 50 分钟，使用当前时间戳代替。
+2025-06-02 21:34:07,382 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 50 分钟
+2025-06-02 21:34:07,382 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 6 分钟
+2025-06-02 21:34:07,383 - spider_to_dwi - WARNING - [WARN] 无效的创建时间: 阅读本文需 6 分钟，使用当前时间戳代替。
+2025-06-02 21:34:07,383 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 6 分钟
+2025-06-02 21:34:07,384 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 12 分钟
+2025-06-02 21:34:07,385 - spider_to_dwi - WARNING - [WARN] 无效的创建时间: 阅读本文需 12 分钟，使用当前时间戳代替。
+2025-06-02 21:34:07,385 - spider_to_dwi - WARNING - [WARN] 未知时间格式: 阅读本文需 12 分钟
+2025-06-02 21:34:07,409 - spider_to_dwi - INFO - [INFO] 写入剩余 267 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:07,422 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_cryptotradingcafe，符合 batchId=20250602174824 的数据条数: 191
+2025-06-02 21:34:07,488 - spider_to_dwi - INFO - [INFO] 写入剩余 191 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:07,847 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_jmtt，符合 batchId=20250602174824 的数据条数: 13488
+2025-06-02 21:34:08,115 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:08,525 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:08,834 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:09,091 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:09,338 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:09,569 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:09,889 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:10,160 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:10,385 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:10,585 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:10,769 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:10,987 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:11,169 - spider_to_dwi - INFO - [INFO] 写入批次 1000 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:11,280 - spider_to_dwi - INFO - [INFO] 写入剩余 488 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:11,283 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_zhinitaimei，符合 batchId=20250602174824 的数据条数: 26
+2025-06-02 21:34:11,289 - spider_to_dwi - INFO - [INFO] 写入剩余 26 条数据到目标集合 dwi_spider_data
+2025-06-02 21:34:11,289 - spider_to_dwi - INFO - [SUCCESS] 所有集合中 batchId=20250602174824 的数据已合并完毕。
+2025-06-03 23:33:43,688 - spider_to_dwi - INFO - [SourceToDwi] batchId=20250603232849, DB=source_spider_data
+2025-06-03 23:33:43,690 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_theblockbeats，符合 batchId=20250603232849 的数据条数: 517
+2025-06-03 23:33:43,748 - spider_to_dwi - ERROR - [ERROR] 处理集合 source_data_theblockbeats 时发生异常: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: source_spider_data.dwi_spider_data index: _id_ dup key: { _id: 1748490540000 }', 'keyPattern': {'_id': 1}, 'keyValue': {'_id': 1748490540000}, 'op': {'_source': 'source_data_theblockbeats', 'source_type': 1, 'article_title': '昨日美国比特币现货ETF净流入4.327亿美元', 'article_desc': 'BlockBeats 消息，5 月 29 日，据 Farside Investors 监测，昨日美国比特币现货 ETF 净流入 4.327 亿美元，其中贝莱德 IBIT 净流入 4.81 亿美元。', 'write_time': '2025-05-29 11:49', 'source_link': 'https://www.theblockbeats.info/flash/296001', 'batchId': '20250603232849', '_id': 1748490540000, 'create_time_ts': 1748490540}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-03 23:33:43,751 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_cryptotradingcafe，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:33:43,752 - spider_to_dwi - WARNING - [WARN] 集合 source_data_cryptotradingcafe 中没有匹配的数据，跳过
+2025-06-03 23:33:43,941 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_jmtt，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:33:43,942 - spider_to_dwi - WARNING - [WARN] 集合 source_data_jmtt 中没有匹配的数据，跳过
+2025-06-03 23:33:43,943 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_zhinitaimei，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:33:43,943 - spider_to_dwi - WARNING - [WARN] 集合 source_data_zhinitaimei 中没有匹配的数据，跳过
+2025-06-03 23:33:43,944 - spider_to_dwi - INFO - [SUCCESS] 所有集合中 batchId=20250603232849 的数据已合并完毕。
+2025-06-03 23:37:21,701 - spider_to_dwi - INFO - [SourceToDwi] batchId=20250603232849, DB=source_spider_data
+2025-06-03 23:37:21,703 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_theblockbeats，符合 batchId=20250603232849 的数据条数: 517
+2025-06-03 23:37:21,735 - spider_to_dwi - ERROR - [ERROR] 处理集合 source_data_theblockbeats 时发生异常: batch op errors occurred, full error: {'writeErrors': [{'index': 0, 'code': 11000, 'errmsg': 'E11000 duplicate key error collection: source_spider_data.dwi_spider_data index: _id_ dup key: { _id: 1748490540000 }', 'keyPattern': {'_id': 1}, 'keyValue': {'_id': 1748490540000}, 'op': {'_source': 'source_data_theblockbeats', 'source_type': 1, 'article_title': '昨日美国比特币现货ETF净流入4.327亿美元', 'article_desc': 'BlockBeats 消息，5 月 29 日，据 Farside Investors 监测，昨日美国比特币现货 ETF 净流入 4.327 亿美元，其中贝莱德 IBIT 净流入 4.81 亿美元。', 'write_time': '2025-05-29 11:49', 'source_link': 'https://www.theblockbeats.info/flash/296001', 'batchId': '20250603232849', '_id': 1748490540000, 'create_time_ts': 1748490540}}], 'writeConcernErrors': [], 'nInserted': 0, 'nUpserted': 0, 'nMatched': 0, 'nModified': 0, 'nRemoved': 0, 'upserted': []}
+2025-06-03 23:37:21,736 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_cryptotradingcafe，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:37:21,736 - spider_to_dwi - WARNING - [WARN] 集合 source_data_cryptotradingcafe 中没有匹配的数据，跳过
+2025-06-03 23:37:21,745 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_jmtt，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:37:21,745 - spider_to_dwi - WARNING - [WARN] 集合 source_data_jmtt 中没有匹配的数据，跳过
+2025-06-03 23:37:21,746 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_zhinitaimei，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:37:21,746 - spider_to_dwi - WARNING - [WARN] 集合 source_data_zhinitaimei 中没有匹配的数据，跳过
+2025-06-03 23:37:21,747 - spider_to_dwi - INFO - [SUCCESS] 所有集合中 batchId=20250603232849 的数据已合并完毕。
+2025-06-03 23:41:09,607 - spider_to_dwi - INFO - [SourceToDwi] batchId=20250603232849, DB=source_spider_data
+2025-06-03 23:41:09,608 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_theblockbeats，符合 batchId=20250603232849 的数据条数: 517
+2025-06-03 23:41:09,656 - spider_to_dwi - INFO - [INFO] 写入剩余 517 条数据到目标集合 dwi_spider_data
+2025-06-03 23:41:09,657 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_cryptotradingcafe，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:41:09,658 - spider_to_dwi - WARNING - [WARN] 集合 source_data_cryptotradingcafe 中没有匹配的数据，跳过
+2025-06-03 23:41:09,666 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_jmtt，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:41:09,667 - spider_to_dwi - WARNING - [WARN] 集合 source_data_jmtt 中没有匹配的数据，跳过
+2025-06-03 23:41:09,668 - spider_to_dwi - INFO - [INFO] 处理集合: source_data_zhinitaimei，符合 batchId=20250603232849 的数据条数: 0
+2025-06-03 23:41:09,668 - spider_to_dwi - WARNING - [WARN] 集合 source_data_zhinitaimei 中没有匹配的数据，跳过
+2025-06-03 23:41:09,668 - spider_to_dwi - INFO - [SUCCESS] 所有集合中 batchId=20250603232849 的数据已合并完毕。
