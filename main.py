@@ -5,7 +5,7 @@ from crawler.spider_zhinitaimei import ZhiNiTaiMeiCrawler
 from crawler.spider_2jmtt import JMTTCrawler
 from crawler.spider_cryptotradingcafe import CryptoTradingCafeCrawler
 from crawler.spyder_theblockbeats import TheBlockBeatsCrawler
-from spider_to_dwi import SourceToDwi
+from data_etl.spider_to_dwi import SourceToDwi
 
 
 def run_crawler(crawler):

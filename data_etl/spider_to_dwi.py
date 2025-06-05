@@ -6,7 +6,7 @@ from datetime import datetime
 import config
 from utils.logger import get_logger
 
-logger = get_logger(__name__, log_file="logs/source_to_dwi.log")
+logger = get_logger(__name__, log_file="../logs/source_to_dwi.log")
 
 
 class SourceToDwi:
