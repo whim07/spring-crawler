@@ -1,4 +1,8 @@
 import concurrent.futures
+import time
+
+import schedule
+
 import config
 from db.mongo_storage import MongoStorage
 from crawler.spider_zhinitaimei import ZhiNiTaiMeiCrawler
@@ -23,7 +27,6 @@ def main():
         TheBlockBeatsCrawler(user_agents, mongo_storage=mongo_storage)
     ]
 
-
     with concurrent.futures.ThreadPoolExecutor(max_workers=len(crawlers)) as executor:
         futures = [executor.submit(run_crawler, crawler) for crawler in crawlers]
 
@@ -41,4 +44,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    schedule.every().day.at("18:00").do(main)
+
+    while True:
+        schedule.run_pending()
+        time.sleep(60)  # 每分钟检查一次任务

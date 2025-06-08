@@ -70,7 +70,7 @@ class SourceToDwi:
             "source_data_jmtt",
             "source_data_zhinitaimei"
         ]
-        target_collection = self.db["dwi_spider_data"]
+        target_collection = self.db["mongo_init_table"]
         query_filter = {"batchId": self.batch_id}
 
         for i, collection_name in enumerate(source_collections):
@@ -101,12 +101,12 @@ class SourceToDwi:
 
                     if len(batch) >= self.BATCH_SIZE:
                         target_collection.insert_many(batch)
-                        logger.info(f"[INFO] 写入批次 {len(batch)} 条数据到目标集合 dwi_spider_data")
+                        logger.info(f"[INFO] 写入批次 {len(batch)} 条数据到目标集合 mongo_init_table")
                         batch.clear()
 
                 if batch:
                     target_collection.insert_many(batch)
-                    logger.info(f"[INFO] 写入剩余 {len(batch)} 条数据到目标集合 dwi_spider_data")
+                    logger.info(f"[INFO] 写入剩余 {len(batch)} 条数据到目标集合 mongo_init_table")
             except Exception as e:
                 logger.error(f"[ERROR] 处理集合 {collection_name} 时发生异常: {e}")
             finally:
