@@ -17,12 +17,13 @@ USER_AGENTS = [
     "Mozilla/5.0 (Linux; Android 13; Pixel 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36",
     "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
 ]
+
 MAX_RETRIES = 3
 MAX_WAIT_TIME = 10
 MAX_WAIT_ARTICLES = 50
+
 SPIDER_CONFIGS = {"date": datetime.datetime.now().date()}
 
 BATCH_ID = time.strftime("%Y%m%d%H%M%S", time.localtime())
 
 BATCH_SIZE = 1000  # 批量处理条数
-
