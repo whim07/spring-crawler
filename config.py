@@ -2,8 +2,8 @@ import datetime
 import time
 
 # config.py
-MONGODB_CONFIG = {"MONGO_URI": "mongodb://admin:123456@localhost:27017/",
-                  "MONGO_DB": "source_spider_data"}
+MONGODB_CONFIG = {"MONGO_URI": "mongodb://localhost:27017/spring",
+                  "MONGO_DB": "spring"}
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
